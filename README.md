@@ -9,7 +9,13 @@ This PoC will:
 * Host a web server which will host "img.samsungapps.com" traffic
 * Install The Weather Channel application
 
-Requires that your device is running the Galaxy Store version 4.5.19.13 (lower versions might work too).
+Requires that your device is running the Galaxy Store version 4.5.19.13 (lower versions might work too). If you're running a higher version of the Galaxy Store, you can try uninstalling the "updated version" by doing the following:
+
+* Open Settings -> Apps
+* Locate "Galaxy Store"
+* At the top right, tap the 3 dots above the gear icon
+    - If there's no 3 dots above the gear icon, then you're running a version which cannot be uninstalled
+* Tap "Uninstall updates" and tap "OK"
 
 To replicate this issue:
 
