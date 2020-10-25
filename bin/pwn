@@ -1,0 +1,8 @@
+echo '###################################'
+echo 'Creating WiFi network'
+echo 'SSID - yaytestyay'
+echo 'Password - yaypasswordyay'
+echo 'After connecting to malicious WiFi, scan the malicious NFC tag'
+echo '###################################'
+service apache2 start &&
+create_ap wlan0 eth0 yaytestyay yaypasswordyay -g 192.168.50.1 -d &
