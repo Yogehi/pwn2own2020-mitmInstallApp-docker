@@ -3,7 +3,8 @@
 FROM kalilinux/kali-rolling
 RUN apt-get update && \
         apt-get install \
-        apt-utils
+        apt-utils \
+        -y
 RUN apt-get install \
         procps \
         hostapd \
