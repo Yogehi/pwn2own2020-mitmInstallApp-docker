@@ -20,7 +20,7 @@ Requires that your device is running the Galaxy Store version 4.5.19.13 (lower v
 To replicate this issue:
 
 * Plug a WiFi adapter that is capable of hosting hotspots into your USB port (I used an Alfa Atheros AR9271)
-* Either build this Docker image or pull the image at https://hub.docker.com/r/kengannonmwr/pwn2own2020-mitminstallapp-docker
+* Either build this Docker image or pull the image at https://hub.docker.com/r/yogehi/pwn2own2020-mitminstallapp-docker
 * Run `docker run -it --privileged --add-host img.samsungapps.com:192.168.50.1 --add-host home.yay:192.168.50.1 -v /dev/bus/usb:/dev/bus/usb --net=host pwn2own2020-mitminstallapp-docker:latest`
 ** NOTE: the above command will put the Docker image in a privileged state, which is insecure, but I used the above command for convenience
 ** Run this Docker image in a throwaway VM
